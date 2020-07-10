@@ -72,6 +72,10 @@ function cardMaker(obj) {
     imgContainer.appendChild(img)
     author.appendChild(authorName)
 
+    card.addEventListener('click', (event) => {
+        console.log(headLine)
+    })
+
 return  card
 }
 cardsAttach.appendChild(cardMaker())
